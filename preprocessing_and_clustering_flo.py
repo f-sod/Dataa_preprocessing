@@ -412,7 +412,7 @@ if __name__ == "__main__":
     for item in pair_info_dict:
         pdbid, cid, pid, value, mol, seq, pairwise_mask, pairwise_mat = pair_info_dict[item]
         fa, fb, anb, bnb, nbs_mat = Mol2Graph(mol)
-        if fa==[]:
+        if fa.size == 0:
             print ('num of neighbor > 6, '), cid
             continue
         mol_inputs.append([fa, fb, anb, bnb, nbs_mat])
