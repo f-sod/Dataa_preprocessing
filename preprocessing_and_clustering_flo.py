@@ -21,9 +21,9 @@ max_nb = 6
 
 def onek_encoding_unk(x, allowable_set):
     """
-    Retrieve the position of the atom currently being red 
-    Within the list given as an argument
-    In the so called function
+    Retrieve the position of the atom currently being read ,
+    Within the list given as an argument,
+    in the so called function
 
     Return 
     ------
